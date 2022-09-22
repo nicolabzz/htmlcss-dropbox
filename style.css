@@ -314,10 +314,13 @@ li >  i {
 
 .LOL {
     font-weight: 700;
-    font-size: 13px;
+    font-size: 14px;
     margin-bottom: 70px;
-
 } 
+
+.LOL2 {
+    font-weight: 500;
+}
 
 .main-second-container-section-bottom-info > span {
     position: absolute;
