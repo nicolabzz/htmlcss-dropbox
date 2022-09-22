@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* --- HEADER --- */
@@ -11,18 +12,27 @@ header {
     max-height: 120px;
     min-height: 50px;
     background-color: aqua;
-    padding: 20px 10px;
     align-items: center;
     justify-content: space-between;
 }
 
-.header-img-logo {
-    margin: 0 15px;
+.header-section-left {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.header-section-left-img-logo {
+    display: inline;
+
+}
+
+.header-sectio-left-info {
+    display: inline-block;
 }
 
 li {
     list-style-type: none;
     display: inline;
-    padding: 5px 15px;
+    padding: 20px;
 }
-
