@@ -7,13 +7,21 @@
 
 /* --- HEADER --- */
 header {
+    border: 2px solid aqua;
     display: flex;
     height: 80px;
     max-height: 120px;
     min-height: 50px;
-    background-color: aqua;
     align-items: center;
     justify-content: space-between;
+}
+
+header .underline:hover {
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
 }
 
 .header-section-left {
@@ -35,4 +43,92 @@ li {
     list-style-type: none;
     display: inline;
     padding: 20px;
+}
+
+.header-section-right {
+    margin-right: 5px;
+}
+
+.header-section-right span {
+    background-color: rgba(0,97,255,255);
+    padding: 8px 3px ;
+    color: white;
+}
+
+/* --- MAIN --- */
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.main-first-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border: 2px solid blue;
+    height: 750px;
+    width: 100%;
+    max-width: 2500px;
+    background-color: rgba(180,208,231,255);
+}
+
+.main-first-container-section {
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid darkred;
+    width: 62%;
+    max-width: 1500px;
+    min-width: 590px;
+    height: 650px;
+}
+
+.main-first-container-section-title {
+    border: 2px solid violet;
+    width: 100%;
+    height: 30%;
+    max-height: 200px;
+    min-height: 150px;
+}
+
+.main-first-container-section-title > h1 {
+    font-weight: 800;
+    font-size: 75px;
+}
+
+.main-first-conteiner-section-paragraph {
+    border: 2px solid salmon;
+    height: 70%;
+    width: 30%;
+    padding-top: 65px;
+}
+
+.main-first-conteiner-section-paragraph > p {
+    padding-bottom: 60px;
+}
+
+.main-first-conteiner-section-paragraph > a {
+    background-color: rgba(0,97,255,255);
+    color: white;
+    padding: 15px;
+    border-radius: 1px;
+    text-decoration: none;
+}
+
+.main-first-conteiner-section-paragraph i {
+    font-size: 3rem;
+}
+
+#unsubscribe-trial {
+    margin-top: 50px;
+}
+
+.main-first-conteiner-section-img {
+    border: 2px solid greenyellow;
+    height: 70%;
+    width: 70%;
+    padding-top: 65px;
+}
+
+.main-first-conteiner-section-img > img {
+    width: 100%;
 }
