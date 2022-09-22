@@ -17,6 +17,8 @@ header {
 }
 
 header .underline:hover {
+    font-weight: 600;
+    color: darkslateblue;
     text-decoration: underline;
 }
 
@@ -56,16 +58,18 @@ li {
 }
 
 /* --- MAIN --- */
+/* -- first section -- */
 main {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .main-first-container {
+    border: 2px solid blue;
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    border: 2px solid blue;
     height: 750px;
     width: 100%;
     max-width: 2500px;
@@ -73,9 +77,9 @@ main {
 }
 
 .main-first-container-section {
+    border: 2px solid darkred;
     display: flex;
     flex-wrap: wrap;
-    border: 2px solid darkred;
     width: 62%;
     max-width: 1500px;
     min-width: 590px;
@@ -132,3 +136,74 @@ main {
 .main-first-conteiner-section-img > img {
     width: 100%;
 }
+
+/* -- second section -- */
+.main-second-container {
+    border: 3px solid brown;
+    display: flex;
+    justify-content: center;
+    height: 1650px;
+    width: 100%;
+    max-width: 2500px;
+}
+
+.main-second-container-section {
+    border: 3px solid yellow;
+    width: 52%;
+    max-width: 1100px;
+    min-width: 530px;
+    margin-top: 160px;
+}
+
+.main-second-container-section-title {
+    border: 2px solid lightseagreen;
+    font-size: 23px;
+    height: 12%;
+}
+
+.main-second-container-section-title > h1 {
+    padding-bottom: 60px;
+}
+
+input[type='radio']{
+    width: 15px;
+    height: 15px;
+}
+
+label {
+    font-size: medium;
+    padding-right: 40px;
+}
+
+.main-second-contaienr-section-plans {
+    border: 3px solid green;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 65%;
+    max-width: 1100px;
+    min-width: 530px;
+    margin-top: 40px;
+}
+
+.subscription-area {
+    border: 2px solid firebrick;
+    width: 30%;
+    height: 100%;
+}
+
+.plan-type {
+    border: 2px solid palevioletred;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    width: 100%;
+    height: 4%;
+    font-size: 14px;
+}
+
+.fa-solid {
+    padding-right: 5px;
+}
+
