@@ -485,7 +485,7 @@ li >  i {
     width: 100%;
     max-width: 2500px;
     padding: 100px 0 100px 0;
-    
+
 }
 
 .main-fifth-container-text {
@@ -500,4 +500,99 @@ li >  i {
 .main-fifth-container-text > a {
     color: rgba(0,97,255,255);
     text-decoration: underline;
+}
+
+/* -- main sixth section -- */
+.main-sixth-container  {
+    /* border: 2px solid purple; */
+    display: flex;
+    height: 650px;
+    max-height: 650px;
+    width: 100%;
+    max-width: 2500px;
+}
+
+.sponsor{
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100% / 3);
+}
+
+/* .main-sixth-container-section-left {
+    border: 2px solid blue;
+} */
+
+.main-sixth-container-section-center {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(245,245,245,255);
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.center-img {
+    border: 2px solid purple;
+
+}
+
+.center-img > img {
+    border: 2px solid purple;
+    width: 100%;
+}
+
+.center-text {
+    border: 2px solid purple;
+
+}
+
+.main-sixth-container-section-right {
+    border: 2px solid yellow;
+}
+
+.square-img {
+    /* border: 2px solid purple; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+}
+
+.square-img > img {
+    width: 50%;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(324deg) brightness(101%) contrast(102%);
+}
+
+.square1 {
+    border: 15px solid rgba(209,233,205,255);
+    background-color: rgba(162,211,155,255);
+}
+
+.square2 {
+    background-color: rgba(97,8,43,255);
+}
+
+.square3 {
+    background-color: rgba(0,147,206,255);
+}
+
+.square4 {
+    background-color: rgba(255,28,28,255);
+}
+
+.square5 {
+    background-color: rgba(213,0,31,255);
+}
+
+.square6 {
+    background-color: rgba(180,208,231,255);
+}
+
+.square7 {
+    background-color: rgba(13,36,129,255);
+}
+
+.square8 {
+    background-color: rgba(255,216,48,255);
 }
