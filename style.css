@@ -10,14 +10,51 @@
 header {
     /* border: 2px solid aqua; */
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
     height: 80px;
     max-height: 120px;
     min-height: 50px;
-    align-items: center;
-    justify-content: space-between;
+    background-color: white;
+    /* box-shadow: 10px 0 firebrick; */ /* obraggiatura scleta inizialmente*/
 }
 
-header .underline:hover {
+/* ombreggiatura Header  */
+
+header:before {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(-44deg, #22357c 35%, #975996 63% );
+    transform: translate3d(0) scale(1.9);
+    filter: blur(20px);
+    opacity: var(0.5);
+    transition: opacity 0.3s;
+    border-radius: inherit;
+}
+
+header::after {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: inherit;
+    border-radius: inherit;
+}
+/*  */
+
+.underline:hover {
     font-weight: 600;
     color: darkslateblue;
     text-decoration: underline;
@@ -294,7 +331,7 @@ li >  i {
 
 
 .subscription-area-team2 {
-    border: 1px solid gray;
+    border-bottom: 1px solid gray;
     display: flex;
     justify-content: center;
     align-items: center;
