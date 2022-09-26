@@ -203,7 +203,7 @@ label {
 }
 
 .plan-type {
-    border: 1px solid gray;
+    border-bottom: 1px solid gray;
     display: flex;
     align-items: center;
     justify-content: center;
