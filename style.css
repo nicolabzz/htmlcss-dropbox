@@ -23,8 +23,11 @@ header {
     /* box-shadow: 10px 0 firebrick; */ /* obraggiatura scleta inizialmente*/
 }
 
-/* ombreggiatura Header  */
-
+/*
+ombreggiatura Header,
+ questo tipo di obreggiatura crea problemi agli elementicon position"relative,
+ sovrapponendoli sulla barra di navigazione
+ */
 header:before {
     content: "";
     z-index: -1;
@@ -40,7 +43,6 @@ header:before {
     transition: opacity 0.3s;
     border-radius: inherit;
 }
-
 header::after {
     content: "";
     z-index: -1;
@@ -52,7 +54,7 @@ header::after {
     background: inherit;
     border-radius: inherit;
 }
-/*  */
+/* ------ */
 
 .underline:hover {
     font-weight: 600;
