@@ -745,13 +745,22 @@ li >  i {
     color: lightgray;
 }
 
+.fa-chevron-down {
+    transform: rotate(90deg);
+    padding-top: 30px;
+}
+
+.faq:hover .fa-chevron-down {
+    transform: rotate(0deg);
+    padding-top: 0;
+}
+
 .faq {
     list-style-type: none;
 }
 
 .hidden-faq {
     display: none;
-
 }
 
 .faq:hover .hidden-faq {
