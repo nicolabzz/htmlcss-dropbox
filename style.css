@@ -744,3 +744,17 @@ li >  i {
 .footer-second-section-bottom a {
     color: lightgray;
 }
+
+.faq {
+    list-style-type: none;
+}
+
+.hidden-faq {
+    display: none;
+
+}
+
+.faq:hover .hidden-faq {
+    display: block;
+    padding-bottom: 30px;
+}
