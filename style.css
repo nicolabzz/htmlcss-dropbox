@@ -676,12 +676,35 @@ li >  i {
 .question {
     display: flex;
     justify-content: space-between;
-    padding: 40px 0;
+    padding: 30px 0;
     font-weight: 700;
 }
 
 .question > i {
     padding-right: 40px;
+}
+
+.fa-chevron-down {
+    transform: rotate(90deg);
+    padding-top: 30px;
+}
+
+.faq:hover .fa-chevron-down {
+    transform: rotate(0deg);
+    padding-top: 0;
+}
+
+.faq {
+    list-style-type: none;
+}
+
+.hidden-faq {
+    display: none;
+}
+
+.faq:hover .hidden-faq {
+    display: block;
+    padding-bottom: 30px;
 }
 
 /* ------ footer second section ------ */
@@ -743,27 +766,4 @@ li >  i {
 
 .footer-second-section-bottom a {
     color: lightgray;
-}
-
-.fa-chevron-down {
-    transform: rotate(90deg);
-    padding-top: 30px;
-}
-
-.faq:hover .fa-chevron-down {
-    transform: rotate(0deg);
-    padding-top: 0;
-}
-
-.faq {
-    list-style-type: none;
-}
-
-.hidden-faq {
-    display: none;
-}
-
-.faq:hover .hidden-faq {
-    display: block;
-    padding-bottom: 30px;
 }
